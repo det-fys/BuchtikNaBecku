@@ -15,6 +15,7 @@
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>BuchtikNaBecku</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release GTASA|Win32'" Label="Configuration">
@@ -45,7 +46,7 @@
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
     <OutDir>$(PLUGIN_SDK_DIR)\output\examples\</OutDir>
     <IntDir>$(PLUGIN_SDK_DIR)\output\obj\examples\$(ProjectName)\Release\</IntDir>
-    <TargetName>BuchtikNaBecku.SA</TargetName>
+    <TargetName>zZz.BuchtikNaBecku.SA</TargetName>
     <TargetExt>.asi</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='zDebug GTASA|Win32'">
@@ -53,7 +54,7 @@
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
     <OutDir>$(PLUGIN_SDK_DIR)\output\examples\</OutDir>
     <IntDir>$(PLUGIN_SDK_DIR)\output\obj\examples\$(ProjectName)\Debug\</IntDir>
-    <TargetName>BuchtikNaBecku.SA_d</TargetName>
+    <TargetName>zZz.BuchtikNaBecku.SA_d</TargetName>
     <TargetExt>.asi</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release GTASA|Win32'">
